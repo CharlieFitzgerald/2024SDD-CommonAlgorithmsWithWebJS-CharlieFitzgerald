@@ -47,5 +47,11 @@ BEGIN SUBROUTINE sqdNum (a, b)
 END
 */
 
-let num1 = 3;
-let num2 = 4;
+let num1 = 0;
+let num2 = 0;
+
+let numInput1 = parseInt(prompt("Choose choose a number"));
+let numInput2 = parseInt(prompt("Choose a second number"));
+
+alert("your answer is: " + (numInput1 + numInput2));
+
